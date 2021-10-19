@@ -1,5 +1,5 @@
 .titrev1{
-    background-image: url(img/Drapeau_du_Mexique.jpg);
+    background-image: url(../img/Drapeau_du_Mexique.jpg);
     display: flex;
     justify-content: center;
     border: solid;
@@ -7,9 +7,24 @@
     background-size: cover;
 }
 .listevillev1{
+    flex-wrap: wrap;
     display: flex;
+    border: solid;
+    /* flex-direction: column; */
+    justify-content: space-around;
 }
 .imagev1{
-    height: auto;
+    height: 100%;
     width: 100%;
+}
+.listev1{
+    flex-wrap: wrap ;
+    display: flex;
+}
+.elementv1{
+    width: 400px;
+    height: 400px;
+    background-color: lawngreen;
+    margin: 20px;
+    
 }
