@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/voyages.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <!---------------------- header ------------------------->
+    <header>
+        <div class="child1">
+            <a href="voyages.html">
+                <img src="img/logo.png" alt="Notre beau logo">
+            </a>
+            <h1>Voyages!</h1>
+        </div>
+        <div class="child2">
+            <div class="dropdown">
+                <button>Continents</button>
+                <div class="dropdown-content">
+                    <h2>Afrique</h2>
+                    <a href="#">Link 1</a>
+                    <h2>Amériques</h2>
+                    <a href="#">Link 2</a>
+                    <h2>Asie</h2>
+                    <a href="#">Link 3</a>
+                    <h2>Europe</h2>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button>Membres de l'équipe</button>
+                <div class="dropdown-content">
+                    <h2>Ahmed</h2>
+                    <a href="#">Link 1</a>
+                    <h2>Fréderick</h2>
+                    <a href="#">Link 2</a>
+                    <h2>Thibault</h2>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!----------------------- main -------------------------->
+    <main>
+
+        <form>
+            <fieldset>
+                <legend>Nous écrire</legend>
+
+                <section class="secform">
+                    <div>
+                        <label for="nom"></label>
+                        <input class="formelmt" placeholder="Nom de famille" type="text" id="nom" name="nom"
+                            minlength="2" maxlength="25" required>
+                    </div>
+                    <div class="formelmt">
+                        <label for="prenom"></label>
+                        <input class="formelmt" placeholder="Prénom" type="text" id="prenom" name="prenom" minlength="2"
+                            maxlength="25" required>
+                    </div>
+                    <div class="formelmt">
+                        <label for="mail"></label>
+                        <input class="formelmt" placeholder="Adresse mail" type="email" id="mail" name="mail" required>
+                    </div>
+                </section>
+
+                <section class="secform">
+                    <div>
+                        <label for="age"></label>
+                        <input class="agef" placeholder="Age" type="number" id="age" name="age" min="16" max="99">
+                    </div>
+                    <div>
+                        <input type="radio" id="h" name="sexe" value="homme">
+                        <label for="h">Homme</label>
+                        <input type="radio" id="f" name="sexe" value="femme">
+                        <label for="f">Femme</label>
+                    </div>
+                </section>
+
+                <div class="ztexte">
+                    <textarea name="exp" placeholder="Ecrire ici" maxlength="500"></textarea>
+                </div>
+
+                <div class="valide check">
+                    <input class="curseur" type="checkbox" id="suivre">
+                    <label for="suivre">Sabonner à la newsletter</label>
+                </div>
+
+                <div class="ztexte valide">
+                    <input class="val" type="submit" value="Envoyer">
+                </div>
+
+            </fieldset>
+
+        </form>
+
+    </main>
+
+    <!---------------------- footer ------------------------->
+    <footer>
+        <h3>Site créé par A. Magassouba, F. Sonder et T. Kine</h3>
+        <div id="contact">
+            <a href="contact.html">Nous contacter</a>
+            <a href="">Mentions légales</a>
+            <a href="">Plan du site</a>
+            <a href="">Gérer les cookies</a>
+        </div>
+    </footer>
+</body>
+
+</html>
