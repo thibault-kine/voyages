@@ -1,3 +1,10 @@
+.Mexico{
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2%;
+}
+
 .titrev1{
     background-image: url(../img/Drapeau_du_Mexique.jpg);
     display: flex;
@@ -5,22 +12,31 @@
     border: solid;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+
+.introv1{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: red;
+}
+
+.listev1{
+    flex-wrap: wrap ;
+    display: flex;
+    background-color: royalblue;
+}
+
 .listevillev1{
     flex-wrap: wrap;
     display: flex;
     border: solid;
-    /* flex-direction: column; */
     justify-content: space-around;
+    background-color: violet;
+    padding-top: 2%;
 }
-.imagev1{
-    height: 100%;
-    width: 100%;
-}
-.listev1{
-    flex-wrap: wrap ;
-    display: flex;
-}
+
 .elementv1{
     width: 400px;
     height: 400px;
@@ -28,3 +44,9 @@
     margin: 20px;
     
 }
+
+.imagev1{
+    height: 100%;
+    width: 100%;
+}
+
