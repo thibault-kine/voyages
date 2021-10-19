@@ -1,9 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
 main{
-    background-image: linear-gradient(
+   background-image: linear-gradient(
         to top, #feca57, #ff9f43 );
-        text-align: center;
-        font-size: 50px;
-        font-family: 'Fleur De Leah', cursive;
-    color: white;
+        text-align: center;    
+}
+.entete{
+     background-image: url(../img/egypto.jpg);
+     height: 500px;
+     padding: 57px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.titre1{
+    border: 1px rgb(78, 78, 78) solid;
+    font-family: 'Fleur De Leah', cursive;
+    color: rgb(19, 18, 18);
+    font-size: 50px;
+    height:80px;
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: inset 5px 5px 10px #5a5a5a,
+            inset -5px -5px 10px #ffffff;
+}
+
+.child{
+    display: flex;
+    justify-content: center;
+    width: 1800px;
+   
+}
+
+.ente{
+    width: 250px; 
+    height: 363px;
+    font-size: 25px;
+    border-radius: 0px 0px 72px 72px;
+    box-shadow:  41px 41px 82px #5a5a5a,
+    -41px -41px 82px #5a5a5a;
+   color: black;
+   background: linear-gradient(145deg, #feca57, #cacaca);
+}
+
+
+.groupeimage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.element{
+  width: 580px;
+  height: 350px;
+  
+  background-color: transparent;
+  margin: 20px;
+  box-shadow: inset 5px 5px 10px #feca57,
+            inset -5px -5px 10px #ff9f43;
+ border-radius: 10px;
+  
+}
+
+.element:hover{
+    opacity: 1;
+    box-shadow:  5px 5px 10px #feca57,
+             -5px -5px 10px #ff9f43;
+}
+.taille2{
+    width: 540px;
+    height:300px ;
+    border-radius: 10px;
 }
