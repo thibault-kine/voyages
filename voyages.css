@@ -6,31 +6,49 @@
 /*-------------------header---------------------*/
 header{
     display: flex;
-    background-color: brown;
+    background-image: linear-gradient(
+        to top, #4d4dff, #8080ff
+    );
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 15vh;
+    width: auto;
 }
 
 .child1{
-background-color: chartreuse;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.child1 img {
+    width: 5vw;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    filter: invert(100%);
+}
+
+.child1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 .child2{
 width:360px;
-background-color: cyan;
 display: flex;
 justify-content: space-around;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #b3b3ff;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    width: 175px;
+    width: 12vw;
+    height: 10vh;
     border-radius: 5px;
 }
 
@@ -41,7 +59,7 @@ button {
 
 .dropdown-content {
     display: none;
-    position:absolute;
+    position: absolute;
     background-color: #f9f9f9;
     min-width: 175px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -71,9 +89,13 @@ button {
 
 /*----------------------footer--------------------------*/
 footer{
-    height: 150px;
+    height: 20vh;
+    width: 100%;
     background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: flex-end;
+    position: absolute;
+    bottom: 0;
 }
