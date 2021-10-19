@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
 main{
-    background-image: url(img/egypte.jpg);
-    height: 1800px;
+    background-image: url(../img/egypte.jpg);
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Fleur De Leah', cursive;
 }
