@@ -1,0 +1,210 @@
+@keyframes survol 
+{
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.6;
+    }
+}
+
+main
+{
+    padding: 50px;
+    background-image: url(../img/icelandaurora.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f2f2f2;
+}
+
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titre
+{ 
+    margin-top: 30px;
+}
+
+#intro h1
+{
+    color: #bfbfbf;
+}
+
+article
+{
+    width: 70%;
+    margin: auto;
+}
+
+#intro ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+#article
+{
+    background-image: linear-gradient(
+        to top,
+        rgba(255,255,255,0),
+        white 95%,
+        rgba(255,255,255,0)
+    );
+    border-radius: 20px;
+    padding: 15px 50px 50px;
+}
+
+#article h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#article img
+{
+    border-radius: 20px;
+}
+
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 150%;
+}
+
+.zone-bulle
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bulle
+{
+    max-width: 60%;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bulle h3
+{
+    font-weight: 100;
+    color: white;
+}
+
+.bulle-gauche
+{
+    background-color: #8080ff;
+    border-radius: 20px 20px 20px 0px;
+    align-self: flex-start;
+}
+
+.bulle-droite
+{
+    background-color: #b0b0ff;
+    border-radius: 20px 20px 0px 20px;
+    align-self: flex-end;
+}
+
+#article img 
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+/*
+#article img:hover
+{
+    animation-name: survol;
+    animation-duration: 0.5s;
+    animation
+}
+*/
+
+#seljalandsfoss
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#seljalandsfoss img
+{
+    width: 50%;
+}
+
+table
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+th
+{
+    background-color: #8080ff;
+    padding: 15px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+td
+{
+    background-color: #b0b0ff;
+    width: 30%;
+    padding: 10px;
+}
+
+#note
+{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: gold;
+}
+
+label
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+input
+{
+    width: 30%;
+    height: 30px;
+}
+
+textarea
+{
+    width: 100%;
+    resize: vertical;
+}
+
+#comment
+{
+    width: 80%;
+    margin: auto;
+}
+
+#submit-btn
+{
+    background-color: #8080ff;
+    border-radius: 30px;
+    width: 100px;
+    height: auto;
+}
