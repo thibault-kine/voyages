@@ -101,6 +101,7 @@
     background-size: contain;
     background-color: #ededed;
     animation: fondu 15s ease-in-out infinite both;
+    border-radius: 45%;
 }
 
 /* .contennneur{
@@ -122,8 +123,43 @@
 
 @keyframes fondu{
     0%{background-image: url(../img/cenote.jpg);}
-    33%{background-image: url(../img/chchen-itza.jpg);}
-    66%{background-image: url(../img/Mazunté.jpg);}
+    12%{background-image: url(../img/cenote2.jpg);}
+    25%{background-image: url(../img/cenote3.JPG);}
+    37%{background-image: url(../img/cenote4.JPG);}
+    50%{background-image: url(../img/cenote5.JPG);}
+    62%{background-image: url(../img/cenote6.JPG);}
+    75%{background-image: url(../img/cenote7.JPG);}
+    87%{background-image: url(../img/cenote8.JPG);}
     100%{background-image: url(../img/cenote.jpg);}
+
+}
+
+
+
+
+/* apres diapo */
+
+
+.d222{
+    width: 960px;
+    height: 640px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-size: contain;
+    background-color: #ededed;
+    animation: fondu2 15s ease-in-out infinite both;
+    border-radius: 45%;
+    
+}
+@keyframes fondu2{
+    0%{background-image: url(../img/chichen-itza.JPG);}
+    12%{background-image: url(../img/chichen-itza2.JPG);}
+    25%{background-image: url(../img/chichen-itza3.JPG);}
+    37%{background-image: url(../img/chichen-itza4.JPG);}
+    50%{background-image: url(../img/chichen-itza5.JPG);}
+    62%{background-image: url(../img/chichen-itza6.JPG);}
+    75%{background-image: url(../img/chichen-itza7.JPG);}
+    87%{background-image: url(../img/chchen-itza.JPG);}
+    100%{background-image: url(../img/chichen-itza.jpg);}
 
 }
