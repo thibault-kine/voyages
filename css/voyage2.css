@@ -1,8 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+/*------------------------------mes animations-------------------------------*/
+@keyframes petiteanim{
+    from{
+transform: translateY(200px);
+opacity: 0;
+    }
+    to{
+transform: translateY(0);
+opacity: 1;
+    }
+}
+
+@keyframes petiteanim2{
+    from{
+        transform: scale(0);
+opacity: 0;
+    }
+    to{
+ transform: scale(1);
+opacity: 1;
+    }
+}
+
+
+/*------------------------------Main-------------------------------*/
 main{
-   background-image: linear-gradient(
-        to top, #feca57, #ff9f43 );
+  /* background-image: linear-gradient(
+        to top, #feca57, #ff9f43 );*/
         text-align: center;    
+        background-color: aliceblue;
 }
 .entete{
      background-image: url(../img/egypto.jpg);
@@ -27,14 +54,15 @@ main{
 .child{
     display: flex;
     justify-content: center;
-    width: 1800px;
+    width: 1350px;
+    animation: petiteanim 7s ;
    
 }
 
 .ente{
-    width: 250px; 
+    width: 160px; 
     height: 363px;
-    font-size: 25px;
+    font-size: 19px;
     border-radius: 0px 0px 72px 72px;
     box-shadow:  41px 41px 82px #5a5a5a,
     -41px -41px 82px #5a5a5a;
@@ -50,24 +78,68 @@ main{
 }
 
 .element{
-  width: 580px;
-  height: 350px;
-  
-  background-color: transparent;
+  width: 460px;
+  height: 400px;
+  background: #e0e0e0;
   margin: 20px;
-  box-shadow: inset 5px 5px 10px #feca57,
-            inset -5px -5px 10px #ff9f43;
- border-radius: 10px;
-  
+ padding: 20px;
+ border-radius: 50px;
+ background: #e0e0e0;
+  box-shadow:  5px 5px 10px #5a5a5a,
+           -5px -5px 10px #ffffff;
 }
 
 .element:hover{
-    opacity: 1;
-    box-shadow:  5px 5px 10px #feca57,
-             -5px -5px 10px #ff9f43;
+   border-radius: 50px;
+   background: #e0e0e0;
+   box-shadow: inset 5px 5px 10px #5a5a5a,
+               inset -5px -5px 10px #ffffff;
+   border-radius: 50px;
 }
 .taille2{
-    width: 540px;
+    width: 420px;
     height:300px ;
-    border-radius: 10px;
+    border-radius: 50px;
 }
+
+/*le tablaeau*/
+table {
+    border: 2px solid #85929e;
+    border-collapse: collapse 2px;
+    width: 90%;
+    font-size: 1em;
+    margin: 1rem auto;
+    border-radius: 8px;
+    background: #e0e0e0;
+    animation: petiteanim2 7s ;
+}
+
+caption {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+th, td {
+    border: 1px solid;
+    border-radius: 8px;
+
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+thead {
+    border-bottom: 2px solid #85929e;
+}
+
+thead th {
+    background-color: darkslategrey;
+    
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
+
+
