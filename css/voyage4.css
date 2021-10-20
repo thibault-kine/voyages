@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Lambola;
+    src: url(../font/Lambola\ Demo.ttf);
+}
+
+h1
+{
+    font-family: Lambola;
+    margin: 20px;
+}
+
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article
+{
+    width: 80%;
+    margin: auto;
+}
+
+#titre
+{
+    background-image: url(../img/thailandflag.png);
+    background-position: center;
+    background-size: contain;
+
+    font-family: Lambola;
+    color: white;
+    letter-spacing: 2px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#titre img
+{
+    width: 30vw;
+    height: auto;
+}
+
+#liste
+{
+    list-style: disc;
+}
