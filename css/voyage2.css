@@ -101,6 +101,21 @@ main{
     height:300px ;
     border-radius: 50px;
 }
+.article1{
+    display: flex;
+    justify-content: center;
+}
+
+.art{
+    color: rgb(19, 18, 18);
+    font-size: 35px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #5a5a5a,
+            inset -5px -5px 10px #ffffff;
+}
+
+
 
 /*le tablaeau*/
 table {
