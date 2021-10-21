@@ -3,7 +3,12 @@
     src: url(../font/Lambola\ Demo.ttf);
 }
 
-h1
+body
+{
+    background-color: #bfff80;
+}
+
+h1, h2
 {
     font-family: Lambola;
     margin: 20px;
@@ -11,12 +16,26 @@ h1
 
 p
 {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 15px;
+}
+
+p, ul
+{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
 article
 {
-    width: 80%;
+    width: 65%;
     margin: auto;
 }
 
@@ -42,7 +61,39 @@ article
     height: auto;
 }
 
-#liste
+#resume, #liste
 {
-    list-style: disc;
+    text-align: center;
+    background-color: #e6ffcc;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+#resume
+{
+    height: 30vh;
+}
+
+#liste li
+{
+    width: 40%;
+}
+
+#navpage
+{
+    background-color: gold;
+    border: 5px solid goldenrod;
+    width: 15vw;
+    position: sticky;
+    top: 0;
+    right: 0;
+    float: right;
+    padding: 5px;
+}
+
+#navpage ul
+{
+    display: flex;
+    flex-direction: column;
 }
