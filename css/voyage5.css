@@ -1,0 +1,101 @@
+/*---------------mes animation-------------------*/
+@keyframes fondu{
+    0%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo1.png");}
+    33.33%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo2.png");}
+    66.67%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo3.png");}
+    100%{background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo1.png");}
+}
+@keyframes images{
+    0%{ transform: translateX(0);}
+    10%{ transform: translateX(0);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-100%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-400%);}
+    90%{transform: translateX(-400%);}
+    100%{transform: translateX(-500%);}
+}
+
+main{
+    background: black;
+}
+
+/*---------------arriere plan-------------------*/
+
+.arriereplan {
+    position: relative;
+    overflow: hidden; 
+}
+
+.arriereplan:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url(../img/usa9.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.dessusimage{
+    z-index: 2;
+    position: relative;
+}
+
+/*-----------------caroussel-------------------*/
+
+.taille{
+    width: 100%;
+    height: 580px;
+}
+
+.carousselcontain{
+    display: flex;
+    justify-content: center; 
+}
+
+#caroussel{
+width: 65%;
+overflow: hidden;
+border:9px solid #333;
+border-radius: 10px;
+}
+
+.images{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: images;
+    animation-iteration-count: infinite;
+}
+
+/*---------------defilement image en fondu-------------------*/
+
+.conteneur{
+    max-width: 20%;
+    margin: 50px auto;
+}
+
+.defilementimage{
+    width: 100%;
+    height: 0px;
+    padding-top: 75%;
+    box-shadow: 0px 0px 10px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+}
+
+.defilementimage:hover{
+    animation-play-state: paused;
+}
+
+
