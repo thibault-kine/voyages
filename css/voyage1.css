@@ -103,7 +103,7 @@
     box-shadow: 0px 15px 10px -5px #777;
     background-size: contain;
     background-color: #ededed;
-    animation: fondu 15s ease-in-out infinite both;
+    animation: fondu 25s ease-in-out infinite both;
     border-radius: 45%;
 }
 
@@ -134,7 +134,7 @@
     box-shadow: 0px 15px 10px -5px #777;
     background-size: contain;
     background-color: #ededed;
-    animation: fondu2 15s ease-in-out infinite both;
+    animation: fondu2 25s ease-in-out infinite both;
     border-radius: 45%;
     
 }
@@ -161,7 +161,7 @@
     box-shadow: 0px 15px 10px -5px #777;
     background-size: contain;
     background-color: #ededed;
-    animation: fondu3 15s ease-in-out infinite both;
+    animation: fondu3 25s ease-in-out infinite both;
     border-radius: 45%;
 }
 
@@ -186,7 +186,7 @@
     box-shadow: 0px 15px 10px -5px #777;
     background-size: contain;
     background-color: #ededed;
-    animation: fondu4 15s ease-in-out infinite both;
+    animation: fondu4 25s ease-in-out infinite both;
     border-radius: 45%;
 }
 
@@ -210,7 +210,7 @@
     box-shadow: 0px 15px 10px -5px #777;
     background-size: contain;
     background-color: #ededed;
-    animation: fondu5 15s ease-in-out infinite both;
+    animation: fondu5 25s ease-in-out infinite both;
     border-radius: 45%;
 }
 
