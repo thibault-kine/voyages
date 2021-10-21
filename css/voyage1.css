@@ -20,7 +20,10 @@
     display: flex;
 }
 .titrev1{
-    background-color: #c9ab8a;
+    /* background-color: #c9ab8a; */
+    background-image: url(../img/Drapeau_du_Mexique.jpg);
+    background-size: cover;
+    background-position-y: center;
     display: flex;
     justify-content: center;
     padding-top: 2%;
@@ -81,12 +84,12 @@
     /* border: solid rgb(0, 255, 55); */
 }
 
-#test{
+#test, #test2, #test3, #test4, #test5{
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
@@ -104,22 +107,6 @@
     border-radius: 45%;
 }
 
-/* .contennneur{
-    max-width: 940px;
-    margin: 0px auto;
-} */
-
-/* .d222{
-    width: 111%;
-    height: 0px;
-    padding-top: 75%;
-    margin: 50px auto;
-    box-shadow: 0px 0px 10px #777;
-    background-color: #ededed;
-    background-size: contain;
-    animation: fondu 15s ease-in-out infinite both;
-
-} */
 
 @keyframes fondu{
     0%{background-image: url(../img/cenote.jpg);}
@@ -137,7 +124,7 @@
 
 
 
-/* apres diapo */
+/*  diapo 2  */
 
 
 .d222{
@@ -162,4 +149,79 @@
     87%{background-image: url(../img/chchen-itza.JPG);}
     100%{background-image: url(../img/chichen-itza.jpg);}
 
+}
+
+
+/*   diapo 3   */
+
+.d333{
+    width: 960px;
+    height: 640px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-size: contain;
+    background-color: #ededed;
+    animation: fondu3 15s ease-in-out infinite both;
+    border-radius: 45%;
+}
+
+@keyframes fondu3{
+    0%{background-image: url(../img/muséeanthro.JPG);}
+    12%{background-image: url(../img/muséeanthro2.JPG);}
+    25%{background-image: url(../img/muséeanthro3.JPG);}
+    37%{background-image: url(../img/muséeanthro4.JPG);}
+    50%{background-image: url(../img/muséeanthro5.JPG);}
+    62%{background-image: url(../img/muséeanthro6.JPG);}
+    75%{background-image: url(../img/muséeanthro7.JPG);}
+    87%{background-image: url(../img/muséeanthro8.JPG);}
+    100%{background-image: url(../img/muséeanthro.jpg);}
+}
+
+/*   diapo 4  */
+
+.d444{
+    width: 960px;
+    height: 640px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-size: contain;
+    background-color: #ededed;
+    animation: fondu4 15s ease-in-out infinite both;
+    border-radius: 45%;
+}
+
+@keyframes fondu4{
+    0%{background-image: url(../img/teotihuacan.JPG);}
+    12%{background-image: url(../img/teotihuacan2.JPG);}
+    25%{background-image: url(../img/teotihuacan3.JPG);}
+    37%{background-image: url(../img/teotihuacan4.JPG);}
+    50%{background-image: url(../img/teotihuacan5.JPG);}
+    62%{background-image: url(../img/teotihuacan6.JPG);}
+    75%{background-image: url(../img/teotihuacan7.JPG);}
+    87%{background-image: url(../img/teotihuacan8.JPG);}
+    100%{background-image: url(../img/teotihuacan.jpg);}
+}
+/*   diapo 4  */
+
+.d555{
+    width: 960px;
+    height: 640px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-size: contain;
+    background-color: #ededed;
+    animation: fondu5 15s ease-in-out infinite both;
+    border-radius: 45%;
+}
+
+@keyframes fondu5{
+    0%{background-image: url(../img/teotihuacan.JPG);}
+    12%{background-image: url(../img/teotihuacan2.JPG);}
+    25%{background-image: url(../img/teotihuacan3.JPG);}
+    37%{background-image: url(../img/teotihuacan4.JPG);}
+    50%{background-image: url(../img/teotihuacan5.JPG);}
+    62%{background-image: url(../img/teotihuacan6.JPG);}
+    75%{background-image: url(../img/teotihuacan7.JPG);}
+    87%{background-image: url(../img/teotihuacan8.JPG);}
+    100%{background-image: url(../img/teotihuacan.jpg);}
 }
