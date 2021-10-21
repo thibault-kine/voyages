@@ -215,13 +215,13 @@
 }
 
 @keyframes fondu5{
-    0%{background-image: url(../img/teotihuacan.JPG);}
-    12%{background-image: url(../img/teotihuacan2.JPG);}
-    25%{background-image: url(../img/teotihuacan3.JPG);}
-    37%{background-image: url(../img/teotihuacan4.JPG);}
-    50%{background-image: url(../img/teotihuacan5.JPG);}
-    62%{background-image: url(../img/teotihuacan6.JPG);}
-    75%{background-image: url(../img/teotihuacan7.JPG);}
-    87%{background-image: url(../img/teotihuacan8.JPG);}
-    100%{background-image: url(../img/teotihuacan.jpg);}
+    0%{background-image: url(../img/mazunte.JPG);}
+    12%{background-image: url(../img/mazunte2.JPG);}
+    25%{background-image: url(../img/mazunte3.JPG);}
+    37%{background-image: url(../img/mazunte4.JPG);}
+    50%{background-image: url(../img/mazunte5.JPG);}
+    62%{background-image: url(../img/mazunte6.JPG);}
+    75%{background-image: url(../img/mazunte7.JPG);}
+    87%{background-image: url(../img/mazunte8.JPG);}
+    100%{background-image: url(../img/mazunte.jpg);}
 }
