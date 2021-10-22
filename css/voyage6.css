@@ -1,14 +1,13 @@
 main{
     background-image: url(../img/guate.JPG);
-    border: solid yellow;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .sectionv6{
     display: flex;
     justify-content: center;
-    border: green solid;
 }
 
 .titrev6{
@@ -18,48 +17,35 @@ main{
     padding-bottom: 2%;
     width: 30%;
     border: solid black;
+    margin-top: 2%;
+    border-radius: 25%;
 
 }
 
 .sectionpv6{
-        text-align: center; 
-        border: solid red;
+        text-align: center;
+        margin-top: 2%;
+}
+.tableauv6{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tableauv6, #theadv6, th {
+    font-size: 80%;
+    border: black solid;
 }
 
-.tableauv6, #theadv6, th{
-    font-size: 90%;
-    border: blue solid;
-}
-
-
-.drapeauv6{
-    border: violet solid;
-}
 .drapeauv6 img:hover{
     transform: scale(1.1) rotate(10deg);
 }
 
 .photov6{
     display: flex;
-    /* overflow: hidden; */
     flex-direction: column;
     align-items: center;
-    /* animation: déroulé ease-in-out infinite 10s; */
-    border: solid rgb(128, 0, 100);
-    
+    flex-wrap: wrap;
+    margin-top: 2%;  
 }
-
-/* @keyframes déroulé{
-    0%{     }
-    12%{     }
-    25%{     }
-    37%{     }
-    50%{     }
-    62%{     }
-    75%{     }
-    87%{     }
-    100%{    }
-} */
 
 .img6v:hover{
     animation: rotation 5s ;
@@ -86,4 +72,11 @@ main{
     100% {
       transform: rotate(360deg) translateX(0px);
     }
+  }
+
+  .img6v{
+      margin-top: 2%;
+  }
+  .img6v1{
+      margin-top: 2%;
   }
