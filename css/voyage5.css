@@ -124,13 +124,14 @@ ul{
 }
 
 .enfant{
-    max-width: 23%;
-    margin: 20px;
+    max-width: 28%;
+    margin: 15px;
     padding-top: 50px;
     transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
 
 .enfant:hover{
+
     transform: scale(1.1);
 }
 
@@ -154,7 +155,7 @@ ul{
 
 .form{
     border-radius:0% 0% 9% 9%;
-    height: 275px;
+    height: 279px;
     box-shadow: inset 5px 5px 10px #5a5a5a,
             inset -5px -5px 10px #ffffff;
 }
