@@ -94,14 +94,13 @@ button {
 
 
 /*----------------------main--------------------------*/
-main{
+.cadre{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-
-main img{
+.arriereplan{
     width: 60%;
 }
 
