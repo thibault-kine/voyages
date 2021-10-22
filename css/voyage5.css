@@ -131,13 +131,9 @@ ul{
 }
 
 .enfant:hover{
-
     transform: scale(1.1);
 }
 
-.defilementimage:hover{
-    animation-play-state: paused;
-}
 
 .taille1{
     width:100% ; 
