@@ -124,7 +124,7 @@ ul{
 }
 
 .enfant{
-    max-width: 28%;
+    width: 400px;
     margin: 15px;
     padding-top: 50px;
     transition: width 1s, height 1s, background-color 1s, transform 1s;
