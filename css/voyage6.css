@@ -1,7 +1,7 @@
 main{
     background-image: url(../img/guate.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -16,23 +16,35 @@ main{
     padding-top: 2%;
     padding-bottom: 2%;
     width: 30%;
-    border: solid black;
+    border: solid rgb(19, 201, 73);
     margin-top: 2%;
-    border-radius: 25%;
+    /* border-radius: 25%; */
+    border-style: inset;
 
 }
 
 .sectionpv6{
         text-align: center;
         margin-top: 2%;
+        background-image: url(../img/guate.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+.introv6{
+    font-size: 150%;
+    font-family: fantasy;
+    font-style: italic;
 }
 .tableauv6{
     margin-top: 2%;
     margin-bottom: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .tableauv6, #theadv6, th, tr{
-    font-size: 80%;
-    border: black solid;
+    /* font-size: 80%; */
+    border: rgb(49, 175, 45) solid;
+    border-style: dashed double;
 }
 
 .drapeauv6 img:hover{
